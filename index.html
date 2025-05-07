@@ -6,7 +6,6 @@
   <title>Port Said Menu</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f8f8f8;
@@ -16,6 +15,7 @@
       color: white;
       text-align: center;
       padding: 20px;
+      font-family: Arial, sans-serif;
     }
     nav {
       background: #444;
@@ -26,6 +26,7 @@
       color: white;
       margin: 0 10px;
       text-decoration: none;
+      font-family: Arial, sans-serif;
     }
     nav a:hover {
       text-decoration: underline;
@@ -37,20 +38,15 @@
     .menu-section img {
       width: 100%;
       display: block;
-      margin: 0; /* remove margin */
-      padding: 0; /* remove padding */
+      margin: 0;
+      padding: 0;
       border: none;
-    }
-    h2 {
-      text-align: center;
-      margin: 20px 0 10px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Port Said Restaurant</h1>
-    <p>Welcome! Tap a category below</p>
   </header>
 
   <nav>
@@ -61,22 +57,18 @@
   </nav>
 
   <div class="menu-section" id="appetizers">
-    <h2>Appetizers</h2>
     <img src="appetizers.png" alt="Appetizers" />
   </div>
 
   <div class="menu-section" id="catch">
-    <h2>Your Catch, Your Style</h2>
     <img src="catch-your-style.png" alt="Your Catch, Your Style" />
   </div>
 
   <div class="menu-section" id="chef">
-    <h2>Chef’s Special</h2>
     <img src="chef-style.png" alt="Chef’s Special" />
   </div>
 
   <div class="menu-section" id="sides">
-    <h2>Side Orders</h2>
     <img src="side-orders.png" alt="Side Orders" />
   </div>
 </body>
